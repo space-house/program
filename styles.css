@@ -60,7 +60,11 @@ header #logo span {
   #about {
     float: left;
     width: 100%;
+    font-size: 0.8em;
 }
+  
+  #about > a:not(:last-child) {
+  margin-right: 4%;
 }
 #about {
   text-align: center;
